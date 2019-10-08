@@ -1,0 +1,40 @@
+@import '../variables.scss';
+
+.movie_card {  
+  border-radius: 10px;
+  margin: 0 10px 10px 0px;
+  padding: 20px;
+  position: relative;
+  height: 370px;  
+  width: 320px;
+
+  .title_movie {
+    border-radius: 0 0 10px 10px;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .get_fav_btn {
+    background: $white;
+    border-radius: 50px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+
+    i {
+      color: $red;
+    }    
+  }
+
+  &:hover {
+    .title_movie {
+      background: $white;
+      color: $black;
+    }
+  }
+}

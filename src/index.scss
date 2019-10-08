@@ -1,0 +1,22 @@
+@import 'variables.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: .4s;
+}
+
+html {
+  font-size: 16px;  
+}
+
+body {
+  background: $purple;
+  color: $white;
+  font-family: $muli-font;
+}
+
+button {
+  border: none;
+}

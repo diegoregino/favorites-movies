@@ -1,10 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+//Import Components
+import MoviesList from './components/MoviesList';
 
 function App() {
   return (
-    <div>Favorite movies</div>
+    <>
+      <div>Favorite movies</div>
+      <MoviesList/>
+    </>
   );
 }
 
