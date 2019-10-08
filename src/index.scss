@@ -1,0 +1,32 @@
+@import 'variables.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  transition: .4s;
+}
+
+html {
+  font-size: 16px;  
+}
+
+body {
+  background: $purple;
+  color: $white;
+  font-family: $poppins-font;
+}
+
+button {
+  border: none;
+}
+
+h1,h2 {
+  padding: 0 10px;
+}
+
+h2 {
+  font-weight: lighter;
+  margin: 20px 0;
+}
