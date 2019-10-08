@@ -31,8 +31,8 @@ const MoviesList = () => {
   }, []);  
 
   const moviesList = movies.map((movie) => {    
-    return <MovieCard className="movie_card" key={movie.id} movie={movie} />
-  })
+    return <MovieCard key={movie.id} movie={movie} />
+  });
 
   return (
     <>

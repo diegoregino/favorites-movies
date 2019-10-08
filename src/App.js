@@ -7,7 +7,7 @@ import MoviesList from './components/MoviesList';
 function App() {
   return (
     <>
-      <div>Favorite movies</div>
+      <h1>World movies</h1>
       <MoviesList/>
     </>
   );
